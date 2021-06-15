@@ -1,0 +1,14 @@
+HTTP1												HTTP2
+Text based request to server which is slow				Binary based instead of textual and fast.
+Ordered and blocking							Fully multiplexed
+Does not get fully rendered page in first response			Uses header compression to reduce overhead.
+
+
+Browser JS											Node JS
+It’s a programming language used for writing scripts on website			It’s a JavaScript runtime environment 
+Runs only in browser								Can be run outside browser
+Used on client side								Used on server side
+Capable to add HTML tags and play with DOM					Cannot add HTML tags
+Js can run in any browser engine.						Can run only in V8 engine of chrome
+Used in front-end development							Used in server-side development.
+
